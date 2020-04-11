@@ -126,7 +126,7 @@ class App extends React.Component {
           defaultPageSize={10}
           filterable={true}
           className="-striped -highlight"
-          sorted={[
+          defaultSorted={[
             {
               id: 'modified',
               desc: true
